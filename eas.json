@@ -1,6 +1,7 @@
 {
   "cli": {
-    "version": ">= 5.0.0"
+    "version": ">= 5.0.0",
+    "appVersionSource": "remote"
   },
   "build": {
     "base": {
@@ -43,8 +44,10 @@
         "gradleCommand": ":app:bundleRelease"
       },
       "ios": {
-        "resourceClass": "m-medium"
-      }
+        "resourceClass": "m-medium",
+        "image": "latest"
+      },
+      "autoIncrement": true
     }
   },
   "submit": {
