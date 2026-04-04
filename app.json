@@ -1,7 +1,7 @@
 {
   "name": "4 Paws",
   "slug": "4paws",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "orientation": "default",
   "icon": "./assets/images/icon.png",
   "scheme": "manus20260118223445",
@@ -10,7 +10,7 @@
   "description": "Find trusted cat sitters near you. Book professional cat sitting services with verified sitters, real-time messaging, and secure payments. Perfect for cat owners who need reliable pet care.",
   "ios": {
     "supportsTablet": true,
-    "bundleIdentifier": "space.manus.4paws.t20260118223445",
+    "bundleIdentifier": "com.4pawscatsitting.app",
     "infoPlist": {
       "ITSAppUsesNonExemptEncryption": false,
       "NSLocationWhenInUseUsageDescription": "Allow 4 Paws to access your location to find nearby cat sitters.",
